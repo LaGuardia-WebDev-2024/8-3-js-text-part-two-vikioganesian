@@ -1,11 +1,23 @@
-//🟢Setup Procedure - Runs Once to Set The Canvas
+ //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup(){
-  size(600, 400); 
+  size(600, 400);
+   background (255,255,255);
+  drawName();
+drawName();
+drawName();
 }
 
-//🟢Draw Function - Runs on Repeat
-draw = function(){  
-  background(255, 255, 255);
-  fill(255, 0, 255);
-  ellipse(36, 45, 12, 12); 
+var drawName = function(){
+
+
+
+textSize(30);
+fill(70,0,100);
+text("viki",random(2,600),120);
+
+
 };
+draw = function(){
+
+
+}
